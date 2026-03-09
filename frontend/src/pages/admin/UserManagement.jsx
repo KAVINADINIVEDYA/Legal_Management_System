@@ -17,7 +17,7 @@ export default function UserManagement() {
 
     const handleCreate = async () => {
         try {
-            await api.post('/auth/register', form);
+            await api.post('/auth/users', form);
             toast.success('User created!'); setOpen(false); load();
             setForm({ username: '', password: '', full_name: '', email: '', role: 'legal_officer', department: 'Legal' });
         } catch (e) { toast.error(e.response?.data?.detail || 'Failed'); }
