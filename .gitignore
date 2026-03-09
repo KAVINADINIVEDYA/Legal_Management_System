@@ -1,0 +1,30 @@
+# Virtual environment
+venv/
+
+# Node modules
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Database
+*.db
+
+# ChromaDB data
+chroma_data/
+
+# Uploads
+uploads/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
