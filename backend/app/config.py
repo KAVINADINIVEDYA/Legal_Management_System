@@ -28,7 +28,7 @@ class Settings(BaseSettings):
     CHROMA_PERSIST_DIR: str = "./chroma_data"
 
     # Document Storage
-    UPLOAD_DIR: str = "./uploads"
+    UPLOAD_DIR: str = "./uploads" #
 
     # JWT
     JWT_ALGORITHM: str = "HS256"
